@@ -1,3 +1,5 @@
+
+
 .header {
 
 &__container {
@@ -26,7 +28,8 @@
 }   
 
 
-&__logo--ebac {
+
+&--ebac {
 
 }
 
@@ -46,6 +49,19 @@
     font-weight: 400;
     margin-right: 1.2rem;
    
+}
+
+@media (max-width: $mobileLarge) {
+
+    &__logo {
+        flex-wrap: wrap;
+    }
+    &__city {
+        margin-top: 1rem
+    }
+    &__span {
+        margin-bottom: 1rem;
+    }
 }
 
 }

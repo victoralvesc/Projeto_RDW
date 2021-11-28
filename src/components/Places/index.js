@@ -1,6 +1,6 @@
 import React from 'react';
-import Slider from '../Slider';
 import './styles.scss';
+import Slider from '../Slider';
 
 const Places = () => {
     return (
@@ -13,13 +13,13 @@ const Places = () => {
                     <select>
                         <option>Distância</option>
                         <option>Ordem Alfabetica</option>
-                    </select>    
-
-                  </div>      
-            </div>
-                <div className="places__content">
-                    <Slider />
+                    </select>
                 </div>
+            </div>
+            <div className="places__content">
+                <Slider />
+            </div>
+
         </section>
     )
 }

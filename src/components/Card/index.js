@@ -18,7 +18,7 @@ const Card = () => {
     return (
         <div className="card__container">
             <div className="card__image"></div>
-            <div className="card__content"></div>
+            <div className="card__content ">
             <h3>Nome do Local</h3>
             <ul className="card__facilities">
                 <li className="card__facilities__item">
@@ -74,7 +74,8 @@ const Card = () => {
             </ul>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <Button>Como Chegar</Button>
-
+            </div>
+            
 
         </div>
     )
